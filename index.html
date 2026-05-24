@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD NISHAT dsnr | প্রফেশনাল গ্রাফিক্স ডিজাইন</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* সিএসএস কোড এখানে দেওয়া হলো */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; scroll-behavior: smooth; }
+        body { background-color: #0f172a; color: #ffffff; }
+
+        header { display: flex; justify-content: space-between; align-items: center; padding: 20px 8%; background-color: #1e293b; position: sticky; top: 0; z-index: 1000; }
+        .logo { font-size: 24px; font-weight: 700; }
+        .logo span { color: #ff3e3e; }
+        nav ul { display: flex; list-style: none; }
+        nav ul li { margin-left: 30px; }
+        nav ul li a { color: #cbd5e1; text-decoration: none; }
+        .btn-nav { background-color: #ff3e3e; padding: 8px 20px; border-radius: 5px; color: white !important; }
+
+        .hero { display: flex; justify-content: space-between; align-items: center; padding: 80px 8%; min-height: 80vh; }
+        .hero-content { max-width: 550px; }
+        .hero-content h1 { font-size: 50px; color: white; }
+        .btn-primary { background-color: #ff3e3e; padding: 12px 25px; text-decoration: none; color: white; border-radius: 5px; display: inline-block; }
+
+        .services, .portfolio, .contact { padding: 80px 8%; }
+        .services { background-color: #1e293b; }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+        .service-box { background-color: #0f172a; padding: 40px; border-radius: 10px; text-align: center; border: 1px solid #334155; }
+
+        .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .portfolio-item img { width: 100%; border-radius: 10px; }
+
+        .social-contact-btns { display: flex; justify-content: center; gap: 20px; }
+        .btn-whatsapp, .btn-messenger { text-decoration: none; padding: 15px 25px; border-radius: 5px; color: white !important; font-weight: 600; }
+        .btn-whatsapp { background-color: #25d366; }
+        .btn-messenger { background-color: #0084ff; }
+
+        footer { text-align: center; padding: 25px; background-color: #0f172a; color: #94a3b8; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">MD NISHAT<span> dsnr</span></div>
+        <nav>
+            <ul>
+                <li><a href="#home">হোম</a></li>
+                <li><a href="#services">সার্ভিস</a></li>
+                <li><a href="#portfolio">পোর্টফোলিও</a></li>
+                <li><a href="#contact" class="btn-nav">যোগাযোগ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h3>হ্যালো, আমি একজন</h3>
+            <h1>গ্রাফিক্স ডিজাইনার</h1>
+            <p>আমি আপনার আইডিয়া এবং ব্র্যান্ডকে আকর্ষণীয় ভিজ্যুয়াল আর্ট ও লোগোতে রূপান্তর করি।</p>
+            <br>
+            <a href="#portfolio" class="btn-primary">আমার কাজ দেখুন</a>
+        </div>
+        <div class="hero-img">
+            <img src="https://via.placeholder.com/400x400/1e293b/ffffff?text=MD+NISHAT+dsnr" alt="MD NISHAT dsnr" style="border-radius:20px;">
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2 style="text-align:center; margin-bottom:50px;">আমার সার্ভিসসমূহ</h2>
+        <div class="services-grid">
+            <div class="service-box"><h3>লোগো ডিজাইন</h3></div>
+            <div class="service-box"><h3>ব্যানার ডিজাইন</h3></div>
+            <div class="service-box"><h3>কাস্টম আর্ট</h3></div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2 style="text-align:center; margin-bottom:50px;">আমার সেরা কাজগুলো</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item"><img src="https://via.placeholder.com/350x250/0f172a/ffffff?text=Logo" alt="Work"></div>
+            <div class="portfolio-item"><img src="https://via.placeholder.com/350x250/0f172a/ffffff?text=Banner" alt="Work"></div>
+            <div class="portfolio-item"><img src="https://via.placeholder.com/350x250/0f172a/ffffff?text=Art" alt="Work"></div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 style="text-align:center; margin-bottom:50px;">যোগাযোগ করুন</h2>
+        <div class="social-contact-btns">
+            <a href="https://wa.me/8801778780137" target="_blank" class="btn-whatsapp">
+                <i class="fab fa-whatsapp"></i> হোয়াটসঅ্যাপ
+            </a>
+            <a href="https://www.facebook.com/share/1AHyQyUJwr/" target="_blank" class="btn-messenger">
+                <i class="fab fa-facebook"></i> ফেসবুক
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 MD NISHAT dsnr. All Rights Reserved.</p>
+    </footer>
+
+</body>
+  </html>
